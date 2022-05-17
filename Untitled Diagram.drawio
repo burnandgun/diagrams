@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T03:37:06.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="-crh639DfMVkLKlR9xIV" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T09:09:08.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="JJCoLBwDrlnNDimy6sTw" version="18.0.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="chain.go" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="chain.go&#xa;(由主线程&#xa;main开启的Serve服务出发)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="160" width="210" height="300" as="geometry" />
         </mxCell>
         <mxCell id="O9rQm846-6DMJeRLNn3o-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.503;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-1">
@@ -99,8 +99,50 @@
         <mxCell id="O9rQm846-6DMJeRLNn3o-50" value="如果是配置消息或者普通消息提交中的区块超过提交中的区块数量则清空submitC" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="590" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9rQm846-6DMJeRLNn3o-52" target="O9rQm846-6DMJeRLNn3o-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O9rQm846-6DMJeRLNn3o-52" value="&lt;span style=&quot;&quot;&gt;[cs.Chain.start()&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;go c.run()&lt;br&gt;go func()]&lt;br&gt;b:= &amp;lt;-ch&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="465" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-57" value="&lt;span style=&quot;&quot;&gt;raft/node.go(thread 3)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-59" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="590" as="sourcePoint" />
+            <mxPoint x="704.58" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9rQm846-6DMJeRLNn3o-60" target="O9rQm846-6DMJeRLNn3o-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-60" value="b序列化为data后，处理区块内容&lt;br&gt;Propose(ctx , data)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9rQm846-6DMJeRLNn3o-62" target="O9rQm846-6DMJeRLNn3o-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-62" value="stepWait()&lt;br&gt;打包为MsgProp类型数据m" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9rQm846-6DMJeRLNn3o-64" target="O9rQm846-6DMJeRLNn3o-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-64" value="stepWithWaitOption()&lt;br&gt;pm包装消息数据m发给node.propc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="425" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-67" value="&lt;span style=&quot;&quot;&gt;raft/node.go(thread 4)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="895" y="640" as="sourcePoint" />
+            <mxPoint x="894.5799999999997" y="197.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9rQm846-6DMJeRLNn3o-69" value="来自fabric的node.go中raft.StartNode或者raft.restartNode&lt;br&gt;go node.run(raft)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
