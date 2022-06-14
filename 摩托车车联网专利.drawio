@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T04:24:18.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="19.0.0" etag="buAwr729Wj_aFawi9lZZ" type="github"><diagram id="jlRWuYwTOuKt0I4FbLtY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-14T06:33:12.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gCSLYSQuiaObhcuAYZmc" version="19.0.0" type="github">
+  <diagram id="jlRWuYwTOuKt0I4FbLtY" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LbHGnlwqTYqHRC84HZBg-4" target="LbHGnlwqTYqHRC84HZBg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-4" value="摩托车" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LbHGnlwqTYqHRC84HZBg-5" target="LbHGnlwqTYqHRC84HZBg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-5" value="摩托车仪表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="110" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="LbHGnlwqTYqHRC84HZBg-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491.25" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-10" value="TBOX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-11" value="摩托车车内网" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LbHGnlwqTYqHRC84HZBg-13" target="LbHGnlwqTYqHRC84HZBg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="245" width="137.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-15" value="后台服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-16" value="服务器系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-17" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="245" width="137.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-19" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="221.25" y="280" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-20" value="用户应用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="216.25" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-21" value="摩托车通过TBOX将车辆仪表数据上传" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="190" width="145" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
