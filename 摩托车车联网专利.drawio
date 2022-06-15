@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:35:47.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jq6czd9tzIACTMuVQM9A" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:36:46.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dGSmRWmEQmIhQ9laKkrA" version="19.0.0" type="github">
   <diagram id="jlRWuYwTOuKt0I4FbLtY" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
         <mxCell id="LbHGnlwqTYqHRC84HZBg-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbHGnlwqTYqHRC84HZBg-126" target="LbHGnlwqTYqHRC84HZBg-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LbHGnlwqTYqHRC84HZBg-128" value="创建个人账户&lt;br&gt;获取个人公私钥对" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LbHGnlwqTYqHRC84HZBg-127">
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-128" value="个人账户&lt;br&gt;获取个人公私钥对" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LbHGnlwqTYqHRC84HZBg-127">
           <mxGeometry x="-0.4531" relative="1" as="geometry">
             <mxPoint x="22" y="-25" as="offset" />
           </mxGeometry>
@@ -256,7 +256,7 @@
           <mxGeometry x="910" y="662.5" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LbHGnlwqTYqHRC84HZBg-129" value="上报车辆仪表数据以及&lt;br&gt;车辆车体数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1080" y="662.5" as="geometry">
+          <mxGeometry x="1090" y="662.5" as="geometry">
             <mxPoint x="228" y="-134" as="offset" />
           </mxGeometry>
         </mxCell>
