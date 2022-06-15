@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T06:33:14.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WJIEZEwHppHuoIFcy5-5" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T06:35:47.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jq6czd9tzIACTMuVQM9A" version="19.0.0" type="github">
   <diagram id="jlRWuYwTOuKt0I4FbLtY" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,8 +256,13 @@
           <mxGeometry x="910" y="662.5" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LbHGnlwqTYqHRC84HZBg-129" value="上报车辆仪表数据以及&lt;br&gt;车辆车体数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1068.5" y="662.5" as="geometry">
+          <mxGeometry x="1080" y="662.5" as="geometry">
             <mxPoint x="228" y="-134" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-130" value="通过私钥获取个人数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="655" as="geometry">
+            <mxPoint x="231" y="174" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
