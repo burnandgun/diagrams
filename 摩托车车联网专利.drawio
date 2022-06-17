@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T07:37:59.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Cx2m4XFBsaVFpNJCd-Ap" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T07:47:59.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="XadmZ1Z6YNb26M37BwIC" version="19.0.0" type="github">
   <diagram id="jlRWuYwTOuKt0I4FbLtY" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
             <mxPoint x="15" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LbHGnlwqTYqHRC84HZBg-87" value="区块链系统" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-87" value="区块链" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1973.6200000000001" y="1754" width="68.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LbHGnlwqTYqHRC84HZBg-89" value="车辆倾倒事件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
@@ -285,6 +285,12 @@
             <mxPoint x="1900" y="1560" as="sourcePoint" />
             <mxPoint x="2040" y="1620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-141" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1922.37" y="1620" width="177.63" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LbHGnlwqTYqHRC84HZBg-146" value="区块链系统" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1971.18" y="1840" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
