@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T02:29:14.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-Ch9aFEoitj8nl5-QAwA" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-01T02:30:46.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JhoSLe5JhF5bx1-lhYSi" version="20.0.3" type="github">
   <diagram id="3rsK4sRMyDqufHuRaAZe" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,19 +11,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="274" y="310" width="280" height="100" as="geometry" />
+          <mxGeometry x="80" y="340" width="720" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-2" value="前一个区块的哈希值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="294" y="340" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="U90KXrBJ-N6k7Ng19d0M-3" value="Block Header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="354" y="310" width="120" height="30" as="geometry" />
+          <mxGeometry x="135" y="370" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-4" value="默克树根" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="383" y="370" width="70" height="30" as="geometry" />
+          <mxGeometry x="408" y="370" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-5" value="时间戳" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="464" y="340" width="70" height="30" as="geometry" />
+          <mxGeometry x="580" y="370" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-7" value="tx1`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="100" y="590" width="30" height="30" as="geometry" />
@@ -142,6 +139,15 @@
         </mxCell>
         <mxCell id="U90KXrBJ-N6k7Ng19d0M-45" value="hash221" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="650" y="530" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-50" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块体&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-51" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块头&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
