@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T03:00:56.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_cjyjKnYdTi_9bG4MuhC" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T03:01:01.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ej0pS_bIyUV8PjRNys61" version="20.1.1" type="github">
   <diagram id="d-ZpoT4zATYHA7PLguwY" name="Page-1">
     <mxGraphModel dx="1204" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0eHHYWISejK7ODosK7OV-20" value="S106. 验证成功&lt;br&gt;保存交易至区块" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="270" width="90" height="30" as="geometry" />
+          <mxGeometry x="280" y="280" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0eHHYWISejK7ODosK7OV-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
