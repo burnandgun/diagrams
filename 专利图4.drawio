@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T10:18:32.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="U5bjK-34AVOf8hTuAieX" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T10:27:40.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="b5TriNaNIVw5PB0ybKoQ" version="20.2.4" type="github">
   <diagram id="bfBJqkOqzYkWoZFU8oMP" name="第 1 页">
     <mxGraphModel dx="1204" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-24" value="S204. 打包已验证交易并提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fQZ0i8-J0B5SNk6mFnBJ-23">
+        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-24" value="S204. 打包已验证交易生成并提交" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fQZ0i8-J0B5SNk6mFnBJ-23">
           <mxGeometry x="0.2912" y="19" relative="1" as="geometry">
             <mxPoint x="14" y="-24" as="offset" />
           </mxGeometry>
