@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T10:27:40.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="b5TriNaNIVw5PB0ybKoQ" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T10:29:03.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vPNm-7woKb2ipgWAHpLT" version="20.2.4" type="github">
   <diagram id="bfBJqkOqzYkWoZFU8oMP" name="第 1 页">
     <mxGraphModel dx="1204" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-29" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="70" width="220" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-16" value="跟随者节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="40" y="110" width="90" height="40" as="geometry" />
         </mxCell>
@@ -47,7 +50,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-22" value="车辆节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="410" y="110" width="90" height="40" as="geometry" />
+          <mxGeometry x="485" y="120" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -65,18 +68,21 @@
         </mxCell>
         <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="150" as="sourcePoint" />
-            <mxPoint x="510" y="110" as="targetPoint" />
+            <mxPoint x="585" y="160" as="sourcePoint" />
+            <mxPoint x="585" y="120" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="150" />
-              <mxPoint x="560" y="120" />
+              <mxPoint x="625" y="160" />
+              <mxPoint x="635" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-26" value="S203. 争夺记账权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fQZ0i8-J0B5SNk6mFnBJ-25">
+        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-26" value="S203. 争夺记账权&lt;br&gt;打包交易至区块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fQZ0i8-J0B5SNk6mFnBJ-25">
           <mxGeometry x="0.2912" y="19" relative="1" as="geometry">
             <mxPoint x="-9" y="33" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fQZ0i8-J0B5SNk6mFnBJ-30" value="子链层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="70" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
