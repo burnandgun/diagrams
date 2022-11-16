@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T13:45:22.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="o3RWEb3Szrnl5yJYbT0k" version="20.5.3" type="github"><diagram id="3rsK4sRMyDqufHuRaAZe" name="Page-1">7Vhbb5swFP41fmyFuRjzGBPaaVv7Uk3rHt3gACvBzDFNsl8/G0wICWlSLamyixQpPt85BvOdKwAnnC1vBS3TOx6zHNhWvATOGNg2dG0b6J8VrxoEBbgBEpHFxqgDHrKfzICWQassZvOeoeQ8l1nZBye8KNhE9jAqBF/0zaY879+1pAnbAR4mNN9Fv2axTBsU236Hf2BZkrZ3hihoNDPaGpsnmac05osNyImAEwrOZbOaLUOWa/JaXpp9N3u064MJVshjNnwJrE+Pgny8ukfP/n0Cg9i6u3LNaV9oXpknNqeVq5YCwasiZvoqEDhkkWaSPZR0orUL5XSFpXKWG/U0y/OQ51woueCFMiK7BzVnf2FCsuUGZA5+y/iMSbFSJq02MCSaKPIsIy86n9i+wdINfyCDURMGyfrSHVNqYch6A3Hwj+TNcY7kDTrnIg7BHaJYrFLOiFzIlCe8oHnUoaSj0lJSZ/OZ89IQ+J1JuTL1g1aS9+lVFIrVo9lfC9+0cO214ni5qRyvjDTlhTQXhfZrPpnzSkzY4YCRVCRMvsaPIV6T8qqLBcupzF76derk7rJ34zzyAA4AHoPIBQQDbJnFaFSrQkDqRTAGgQ8iHwQjgN0acQDGeqF3hbWxBUh4usSJ2ZRWuTxN7tjQ6+cO2s2ddZps5s7ZUscd8EUACAFBzSpWPwIiBEYWCKBZkOBS6fX79Lpwl96hynQ2dr0BdpEOYYI0zXrhakSFMHEulFTHd64vjVZroFOi+oHnJS16LKIflZ6G6qp7Na/L7kgZQFQua35avVol5r++0NMaGChAqjaNdekxtuohnrb3K6w5SwtvOVexL/senEvBn9lWwx7o4TTPkkKJE+VTpnCifZmp8XJkFLMsjusWNxQy/bZ3inkAH56joP2u4TE0SL1neHhg5OrM/h8eSusfHhffOTzwvzktev6R4yK8qGmxPfZANmtujspme182v2nu7FK3ufGe1H1b295wLzpnG9+q0g7yjurhZ3vZRft7+Encqt5ScfT3u3XdbS/FrxAODb1DPVKJ+KZW3QDiX+r0i/D14Xe29r3jN/uXErtvd7Vu4wuoE/0C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-16T13:46:30.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nkEZLtiypiXBUv5quTDZ" version="20.5.3" type="github">
+  <diagram id="3rsK4sRMyDqufHuRaAZe" name="Page-1">
+    <mxGraphModel dx="1422" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="500" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="330" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="U90KXrBJ-N6k7Ng19d0M-1" target="U90KXrBJ-N6k7Ng19d0M-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-2" value="前一个区块的哈希值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="215" y="360" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-4" value="默克树根" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="275" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-5" value="时间戳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="373.5" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-50" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块体&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-51" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块头&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="U90KXrBJ-N6k7Ng19d0M-57" target="U90KXrBJ-N6k7Ng19d0M-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-57" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;前一个区块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="80" y="365" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-60" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;后一个区块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="500" y="365" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U90KXrBJ-N6k7Ng19d0M-115" value="区块序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="368.5" y="360" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Eku0pKUzbgy1wHCtAKzw-1" value="默克树" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
