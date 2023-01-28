@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T15:29:28.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="7xBeZcvD4N870YoiP9Yz" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T15:45:44.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Knb_8Baaiu0PqUU555Fi" version="20.8.13" type="github">
   <diagram id="-KhWxun8ObMhiOvJqzjZ" name="第 1 页">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,54 +51,62 @@
             <mxPoint x="-28" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-13" value="2.验证车辆节点有效性" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="180" width="80" height="30" as="geometry" />
+        <mxCell id="u-hLE3L-y5ioJGdZaA26-13" value="3.验证车辆身份和交易数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="200" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-hLE3L-y5ioJGdZaA26-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="250" as="sourcePoint" />
-            <mxPoint x="360" y="250" as="targetPoint" />
+            <mxPoint x="240" y="180" as="sourcePoint" />
+            <mxPoint x="480" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-15" value="3.RSU调用智能合约&lt;br&gt;注册车辆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-14" vertex="1" connectable="0">
+        <mxCell id="u-hLE3L-y5ioJGdZaA26-15" value="2.RSU提交交易至MC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-14" vertex="1" connectable="0">
           <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
-            <mxPoint x="-28" y="-21" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-16" value="4.生成车辆身份的数字签名秘钥对，公钥pk和私钥sk" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="260" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="370" as="sourcePoint" />
-            <mxPoint x="480" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-20" value="5.同步车辆信息&lt;br&gt;至主链" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-19" vertex="1" connectable="0">
-          <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
-            <mxPoint x="-28" y="-21" as="offset" />
+            <mxPoint x="-56" y="-21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u-hLE3L-y5ioJGdZaA26-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="400" as="sourcePoint" />
-            <mxPoint x="240" y="400" as="targetPoint" />
+            <mxPoint x="480" y="260" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-22" value="6.发送车辆信息&lt;br&gt;至RSU" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-21" vertex="1" connectable="0">
+        <mxCell id="u-hLE3L-y5ioJGdZaA26-22" value="4.返回验证结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-21" vertex="1" connectable="0">
           <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
-            <mxPoint x="-4" y="-19" as="offset" />
+            <mxPoint x="56" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u-hLE3L-y5ioJGdZaA26-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="420" as="sourcePoint" />
-            <mxPoint x="120" y="420" as="targetPoint" />
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="120" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-hLE3L-y5ioJGdZaA26-24" value="7.RSU转发车辆信息&lt;br&gt;至车辆节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-23" vertex="1" connectable="0">
+        <mxCell id="u-hLE3L-y5ioJGdZaA26-24" value="6.返回交易结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-hLE3L-y5ioJGdZaA26-23" vertex="1" connectable="0">
           <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
-            <mxPoint x="28" y="-19" as="offset" />
+            <mxPoint x="56" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mVK_wUSeeb_6t9G6ki4-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mVK_wUSeeb_6t9G6ki4-2" value="5.转发交易数据调用&lt;br&gt;智能合约保存数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0mVK_wUSeeb_6t9G6ki4-1">
+          <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
+            <mxPoint x="-28" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mVK_wUSeeb_6t9G6ki4-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="480" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0mVK_wUSeeb_6t9G6ki4-4" value="7.同步交易概要至MC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0mVK_wUSeeb_6t9G6ki4-3">
+          <mxGeometry x="0.4667" y="-1" relative="1" as="geometry">
+            <mxPoint x="-28" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
