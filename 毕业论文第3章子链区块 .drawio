@@ -1,49 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T11:57:55.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2Z2KDDS6ICdgXr1MxUKU" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T11:58:37.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hiMxTb-VdqQSrgimMl5t" version="21.3.5" type="github">
   <diagram id="3rsK4sRMyDqufHuRaAZe" name="Page-1">
-    <mxGraphModel dx="1434" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qHMN80uRtJzd7lJNe_CB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=宋体;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="550" y="275" width="340" height="355" as="geometry" />
+          <mxGeometry x="170" y="130" width="340" height="355" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="580" y="440" width="270" height="140" as="geometry" />
+          <mxGeometry x="200" y="295" width="270" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="580" y="290" width="270" height="130" as="geometry" />
+          <mxGeometry x="200" y="145" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-4" value="前一个区块的哈希值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="605" y="320" width="130" height="30" as="geometry" />
+          <mxGeometry x="225" y="175" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qHMN80uRtJzd7lJNe_CB-5" value="默克树根的哈希值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="630" y="370" width="105" height="30" as="geometry" />
+        <mxCell id="qHMN80uRtJzd7lJNe_CB-5" value="默克树根哈希值" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
+          <mxGeometry x="250" y="225" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-6" value="时间戳" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="763.5" y="370" width="70" height="30" as="geometry" />
+          <mxGeometry x="383.5" y="225" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块体&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="570" y="440" width="120" height="30" as="geometry" />
+          <mxGeometry x="190" y="295" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-8" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;区块头&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="560" y="290" width="120" height="30" as="geometry" />
+          <mxGeometry x="180" y="145" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-9" value="区块序号" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="758.5" y="320" width="75" height="30" as="geometry" />
+          <mxGeometry x="378.5" y="175" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-10" value="默克树" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="680" y="470" width="70" height="30" as="geometry" />
+          <mxGeometry x="300" y="325" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-11" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;子链区块结构&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=宋体;" vertex="1" parent="1">
-          <mxGeometry x="655" y="590" width="120" height="30" as="geometry" />
+          <mxGeometry x="275" y="445" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-15" value="交易" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="680" y="530" width="70" height="30" as="geometry" />
+          <mxGeometry x="300" y="385" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qHMN80uRtJzd7lJNe_CB-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="qHMN80uRtJzd7lJNe_CB-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="714.71" y="500" as="sourcePoint" />
-            <mxPoint x="714.71" y="520" as="targetPoint" />
+            <mxPoint x="334.71000000000004" y="355" as="sourcePoint" />
+            <mxPoint x="334.71000000000004" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
