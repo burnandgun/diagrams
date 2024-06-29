@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T02:55:18.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hTSIJfTphdH-c8gt8HM6" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-29T05:58:10.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="fLquB54N2tcMj3wle2Ag" version="24.0.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2335" width="195" height="85" as="geometry" />
+        </mxCell>
         <mxCell id="MvzRaNbtxcJOoFOf6ha5-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="1010" width="650" height="740" as="geometry" />
         </mxCell>
@@ -284,11 +287,59 @@
         <mxCell id="MvzRaNbtxcJOoFOf6ha5-25" value="衍生，这里可以用纯文字写或者改进，数据层可以用于数据处理。数据处理之后再改进程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1155" y="1570" width="490" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="yCG-VpbK-d45540QDOI8-2" value="界面1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yCG-VpbK-d45540QDOI8-2" value="界面1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="1175" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yCG-VpbK-d45540QDOI8-3" value="界面2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yCG-VpbK-d45540QDOI8-3" value="界面2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="1175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-1" value="用户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-3" value="社区服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-8" value="全球&lt;div&gt;mysql&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2590" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-12" value="深度用户信息包含&lt;div style=&quot;font-size: 15px;&quot;&gt;用户id&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;用户邮箱&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;用户手机&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;用户accountid&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2220" width="210" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-14" value="新加坡redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2625" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-15" value="弗吉尼亚redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2625" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-16" value="法兰克福redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2625" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-25" value="新加坡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2335" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2335" width="195" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-29" value="用户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-30" value="社区服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-31" value="法兰克福" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2335" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2335" width="195" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-33" value="用户服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-34" value="社区服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2375" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nuF2VadyYRnX8jqY9pPj-35" value="弗吉尼亚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2335" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
